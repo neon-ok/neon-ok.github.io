@@ -5,7 +5,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 2.346.2
-    created: "2022-08-11T03:33:49.465202917Z"
+    created: "2022-08-11T04:12:34.508188797Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -33,14 +33,14 @@ entries:
     - https://github.com/bitnami/bitnami-docker-jenkins
     - https://jenkins.io/
     urls:
-    - hc-bitnami/jenkins-10.2.5.tgz
+    - bitnami/jenkins-10.2.5.tgz
     version: 10.2.5
   spark:
   - annotations:
       category: Infrastructure
     apiVersion: v2
     appVersion: 3.3.0
-    created: "2022-08-11T03:33:49.473466301Z"
+    created: "2022-08-11T04:12:34.516452237Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -64,14 +64,14 @@ entries:
     - https://github.com/bitnami/containers/tree/main/bitnami/spark
     - https://spark.apache.org/
     urls:
-    - hc-bitnami/spark-6.2.4.tgz
+    - bitnami/spark-6.2.4.tgz
     version: 6.2.4
   wordpress:
   - annotations:
       category: CMS
     apiVersion: v2
     appVersion: 6.0.1
-    created: "2022-08-11T03:33:49.502015133Z"
+    created: "2022-08-11T04:12:34.545034782Z"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -108,6 +108,6 @@ entries:
     - https://github.com/bitnami/containers/tree/main/bitnami/wordpress
     - https://wordpress.org/
     urls:
-    - hc-bitnami/wordpress-15.0.16.tgz
+    - bitnami/wordpress-15.0.16.tgz
     version: 15.0.16
-generated: "2022-08-11T03:33:49.457601799Z"
+generated: "2022-08-11T04:12:34.500932228Z"
